@@ -1,0 +1,258 @@
+*{
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    overflow-x: hidden;
+}
+section{
+    background-color: #a6c197;font-size: 1em; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    width: 75%;
+    height: 8em;
+    margin-left: 2em;
+    position: fixed;
+    top: 0;
+}
+.folletoi{
+    width: 80em;
+    height: 15em;
+    margin-top: 6em;
+    margin-left: 0;
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.5em;
+    margin-top: 4em;
+}
+  .atendemos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    flex-wrap: nowrap;
+    margin-right: 0;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+.especies{
+    margin-top: 6em;
+}
+.logonosotros{
+    width: 40em;
+    height: 7em;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    margin-left: none;
+    box-shadow: 1em 0.5em 1em 0.5em rgb(194, 234, 173);
+   }
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.5em;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.5em; 
+   
+}
+.logoinicio{
+    background: none; background-color: #64ed02;
+    width: 20em;
+    height: 8em;
+}
+body{
+    background-color:#dfe1f2;
+ }
+p{
+    font-size: 0.8em; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
+}
+footer{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   font-size: 0.85em;
+   font-weight: bold;
+   background-color: #a6c197;
+   width: 100%;
+   margin-top: 2em;
+   margin-left: 2em;
+   }
+
+.facebook{
+    width: 2em; height: 2em;
+}
+.instagram{
+    width: 2em; height: 2em;
+}
+.wp{
+    width: 4em; height: 4em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+       }
+.email{
+    width: 2em; height: 2em;
+}
+.copr{
+    width: 2em; height: 2em;
+}
+.flex-container{
+    display: flex;
+    direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    top: 0;
+    flex-direction: row;
+   }
+.listaheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+.nav li{
+    text-decoration: none;
+    list-style: none;
+}
+.listafooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: center;
+    }
+.flex-listafaq{
+        margin-top: 1em;
+        margin-left: 0em;
+        font-size: 1em;
+    }
+    .flex-form{
+        margin-top: 0;
+    }
+    .logoFAQ{
+    width: 40em;
+    height: 15em;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 10em;
+    margin-bottom: 2em;
+    box-shadow: 1em 0.5em 1em 0.5em rgb(194, 234, 173);
+
+    }
+    .productos{
+        display: flex;
+        width: 90%;
+        height: 40%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 6em;
+        align-items: center;
+        flex-wrap: initial;
+        margin-right: 0;
+        margin-left: 1em;
+        margin-bottom: 1em;
+        border-radius: 1em;
+        box-shadow: 1em 0.5em 1em 0.5em rgb(194, 234, 173);
+         }
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    h4{
+        display: flex;
+        margin-top: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2em;
+    }
+    h5{
+        display: flex;
+        margin-top: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2em;
+    }
+    .folletocontacto{
+        display: flex;
+        width: 40em;
+        height: 30em;
+        margin-top: 10em;
+        box-shadow: 1em 0.5em 1em 0.5em grey;
+    }
+    h6{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2em;
+        font-weight: 100;
+        margin-top: o.8em;
+    }
+
+    .container-grid {
+        
+        grid-row-gap: 2em; 
+    }
+    .conatiner-home {
+        display: grid;
+
+    }
+    .header-grid {
+        display: grid;
+        grid-area: menu;
+    }
+    .atendemos-grid {
+        display: grid;
+        grid-area: menu;  
+        flex-direction: row;
+        justify-content: center; 
+        margin-top: 2em;
+    }
+    .footer-grid { 
+        display: grid;
+        grid-area: pie;
+        flex-direction: row;
+    }
+    .listafooter { 
+        grid-area: pie;
+        flex-direction: row;
+        align-items: center;
+    }
+    .productos-grid {
+        grid-area: contenido;
+        justify-self: center;
+    }
+    
+    /*Mobile first*/
+
+@media only screen and (max-width: 420px)  { 
+    .container-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: 5em 20em 5em;
+        grid-template-areas: 
+         "menu"
+         "contenido"
+         "pie";
+    }
+}
+@media only screen and (min-width: 421px) and (max-width: 1199px) {
+    .container-grid {
+        grid-template-columns: repeat(2,2fr);
+        grid-template-rows: 5em 20em 5em;
+        grid-template-areas: 
+         "menu menu"
+         "contenido contenido"
+         "pie pie";
+    }
+}
+@media only screen and (min-width 1200px) and (max-width 1400px){
+    .container-grid {
+        grid-template-columns: repeat(2,2fr);
+        grid-template-rows: 5em 20em 2em;
+        grid-template-areas: 
+         "menu menu"
+         "contenido contenido"
+         "pie pie";
+    }
+}
+   
